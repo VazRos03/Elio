@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085919354956",
+    "project_id": "loginfirebase-yuyots03",
+    "storage_bucket": "loginfirebase-yuyots03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085919354956:android:6d8d736ca58f3b94e114e9",
+        "android_client_info": {
+          "package_name": "com.example.usuarios"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Cexbi5idxG9dFopQkc19j5-INd8y4OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

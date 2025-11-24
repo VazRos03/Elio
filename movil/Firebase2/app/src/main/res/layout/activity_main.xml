@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <!-- Título de la Aplicación -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validación de Usuario con Firebase"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="32dp" />
+
+    <!-- Campo de Entrada para el Email -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:minHeight="48dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Campo de Entrada para la Contraseña -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña (mín. 6 caracteres)"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:minHeight="48dp"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Contenedor para los Botones (Registro e Inicio de Sesión) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registrar Nuevo Usuario"
+            android:paddingVertical="12dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Iniciar Sesión"
+            android:paddingVertical="12dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Área para Mostrar el Estado de la Sesión -->
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No autenticado. Por favor, regístrate o inicia sesión."
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="#555555"
+        android:background="#E0E0E0"
+        android:layout_marginVertical="20dp" />
+
+</LinearLayout>
