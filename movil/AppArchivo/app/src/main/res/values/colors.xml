@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores Material para el tema AppArchivo -->
+    <color name="primary_color">#26A69A</color> <!-- Turquesa: Color principal -->
+    <color name="primary_dark_color">#00796B</color> <!-- Turquesa Oscuro: Para la barra de estado -->
+    <color name="secondary_color">#D84315</color> <!-- Naranja Oscuro: Color de acento para algunos botones/elementos -->
+    <color name="secondary_dark_color">#FF7043</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

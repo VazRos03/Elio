@@ -1,0 +1,7 @@
+--- Contenido del Archivo Raw ---
+Esto es un ejemplo de datos
+leídos directamente
+desde un recurso (res/raw/data.txt)
+de la aplicación.
+No se necesita manejo de archivos
+ni permisos para leer este recurso.
