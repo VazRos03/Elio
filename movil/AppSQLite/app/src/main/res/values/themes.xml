@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Base de la Aplicación (Usando AppCompat para compatibilidad con vistas) -->
+    <style name="Base.Theme.AppSQLite" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Colores primarios y de acento, puedes definirlos en colors.xml -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorPrimaryDark">@color/blue_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+
+        <!-- Otros ajustes del tema (Opcional) -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="Theme.AppSQLite" parent="Base.Theme.AppSQLite" />
+</resources>

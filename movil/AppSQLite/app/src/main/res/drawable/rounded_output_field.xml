@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo gris claro para el área de resultados -->
+    <solid android:color="#E0E0E0" />
+    <!-- Borde gris oscuro para darle definición -->
+    <stroke android:width="1dp" android:color="#AAAAAA" />
+    <!-- Esquinas redondeadas -->
+    <corners android:radius="8dp" />
+    <!-- Relleno interno para que el texto no esté pegado al borde -->
+    <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp" />
+</shape>
