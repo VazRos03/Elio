@@ -9,6 +9,11 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import  com.example.appsqlite.R
+
+/*Tarea SQLite
+* Desarrollar una app que ghaga uso de un sqlite
+* funciones crud
+* Luis Arturo Vazquez Rosales*/
 class MainActivity : AppCompatActivity() {
 
     // Vistas de la UI

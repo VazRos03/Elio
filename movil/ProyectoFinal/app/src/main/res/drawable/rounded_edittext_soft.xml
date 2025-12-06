@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra suave inferior -->
+    <item android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#1A000000"/> <!-- Sombra muy ligera -->
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+    <!-- Fondo principal del campo -->
+    <item android:bottom="6dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+            <corners android:radius="12dp"/>
+            <stroke android:color="@color/accent_light" android:width="1dp"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Contenedor Principal (Panel central con sombra) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp"
+        android:background="@drawable/rounded_edittext_soft"
+        android:elevation="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Título de la Aplicación -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/text_dark"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestor de Tareas Personal"
+            android:textSize="18sp"
+            android:textColor="@color/secondary_warm"
+            android:layout_marginBottom="32dp" />
+
+        <ImageView
+            android:id="@+id/appIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/outline_account_circle_24"
+            android:tint="@color/primary_soft"
+            android:contentDescription="Icono de la aplicación"
+            android:layout_marginBottom="48dp" />
+
+        <!-- Campo de Entrada para el Email -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="14dp"
+            android:background="@drawable/rounded_edittext_soft"
+            android:minHeight="48dp"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="@color/accent_light"
+            android:textColor="@color/text_dark"/>
+
+        <!-- Campo de Entrada para la Contraseña -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:background="@drawable/rounded_edittext_soft"
+            android:minHeight="48dp"
+            android:layout_marginBottom="40dp"
+            android:textColorHint="@color/accent_light"
+            android:textColor="@color/text_dark"/>
+
+        <!-- Botón 1: Iniciar Sesión (Principal) -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:paddingVertical="14dp"
+            android:background="@drawable/rounded_button_gradient_primary"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp" />
+
+        <!-- Botón 2: Registrar (Secundario)-->
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Nuevo Usuario"
+            android:paddingVertical="14dp"
+            android:background="@drawable/rounded_button_soft_secondary"
+            android:textColor="@color/primary_soft"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:elevation="6dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
